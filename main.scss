@@ -1,0 +1,344 @@
+body {
+  font-feature-settings: "kern" 1, "onum" 1, "liga" 0, "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+  background-image: -webkit-linear-gradient(
+    273deg,
+    #fbd6cd 6%,
+    #fbe8aa 28%,
+    #50e2e3 56%,
+    #fdc0ee 78%,
+    #fdeba8 95%,
+    #fff 100%
+  );
+  background-image: -o-linear-gradient(
+    273deg,
+    #fbd6cd 6%,
+    #fbe8aa 28%,
+    #50e2e3 56%,
+    #fdc0ee 78%,
+    #fdeba8 95%,
+    #fff 100%
+  );
+  background-image: linear-gradient(
+    177deg,
+    #fbd6cd 6%,
+    #fbe8aa 28%,
+    #50e2e3 56%,
+    #fdc0ee 78%,
+    #fdeba8 95%,
+    #fff 100%
+  );
+  min-height: 2000px;
+}
+
+@font-face {
+  font-family: "Canela Web";
+  src: url("https://pudding.cool/assets/fonts/canela/Canela-Light-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/canela/Canela-Light-Web.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Canela Web";
+  src: url("https://pudding.cool/assets/fonts/canela/Canela-Bold-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/canela/Canela-Bold-Web.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+/* Publico Text */
+
+@font-face {
+  font-family: "Publico Text Web";
+  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Roman-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/publico/PublicoText-Roman-Web.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Publico Text Web";
+  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Publico Text Web";
+  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web";
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web";
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web";
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.top-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  height: 25px;
+  display: none;
+  &-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.envelope {
+  width: 20px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+main {
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 62rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+.intro {
+  max-width: 500px;
+  margin-bottom: 100px;
+}
+.tk-canela {
+  font-family: "Canela Web", "Times New Roman", serif;
+}
+.tk-canela {
+  font-family: "Canela Web", "Times New Roman", serif;
+}
+.tk-atlas {
+  font-family: "Atlas Grotesk Web", Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 50em) {
+  .intro__hed {
+    font-size: 64px;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .intro__hed {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+}
+
+.intro__hed {
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 50px;
+  line-height: 1.2;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+.intro__dek {
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: left;
+  font-size: 18px;
+}
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-family: "Canela Web";
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 36px;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+.section-left {
+  max-width: 650px;
+}
+.section-right {
+  margin-left: 100px;
+}
+.vert-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.image-holder {
+  width: 500px;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(250, 250, 250, 0.5)),
+    to(rgba(245, 245, 245, 0.5))
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(250, 250, 250, 0.5) 0%,
+    rgba(245, 245, 245, 0.5) 100%
+  );
+  background-image: -o-linear-gradient(
+    left,
+    rgba(250, 250, 250, 0.5) 0%,
+    rgba(245, 245, 245, 0.5) 100%
+  );
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 0.5) 0%,
+    rgba(245, 245, 245, 0.5) 100%
+  );
+}
+.image-full {
+  padding: 0px;
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.section-prose {
+  font-family: "Atlas Grotesk Web";
+  margin-bottom: 1.5rem;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 16px;
+}
+.image-full a {
+  width: 100%;
+  height: 100%;
+}
+.image-full a img {
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
+  width: 100%;
+}
+
+a img {
+  border: none;
+}
+img {
+  margin: 0 auto;
+}
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 6rem;
+  display: block;
+}
+.footer .footer-title {
+  font-family: "Canela Web";
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+.footer .footer-prose {
+  font-family: "Atlas Grotesk Web";
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 14px;
+}
+.people {
+  display: flex;
+}
+.person-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.person {
+  margin: 15px;
+  flex: 1;
+}
+.person-name {
+  font-family: "Canela Web";
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.person-dek {
+  font-family: "Atlas Grotesk Web";
+}
+
+@media screen and (max-width: 750px) {
+  .section {
+    display: block;
+  }
+  .people {
+    display: block;
+  }
+  .section-right {
+    margin-left: 0px;
+  }
+}
