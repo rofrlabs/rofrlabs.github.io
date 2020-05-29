@@ -7,31 +7,6 @@ body {
 }
 
 @font-face {
-  font-family: "Canela Web";
-  src: url("https://pudding.cool/assets/fonts/canela/Canela-Light-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/canela/Canela-Light-Web.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Canela Web";
-  src: url("https://pudding.cool/assets/fonts/canela/Canela-Bold-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/canela/Canela-Bold-Web.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-/* Publico Text */
-@font-face {
-  font-family: "Publico Text Web";
-  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Roman-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/publico/PublicoText-Roman-Web.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
   font-family: "Publico Text Web";
   src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff") format("woff");
   font-weight: 700;
@@ -48,7 +23,7 @@ body {
 }
 
 @font-face {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
   src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -56,7 +31,7 @@ body {
 }
 
 @font-face {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
   src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff") format("woff");
   font-weight: 500;
   font-style: normal;
@@ -64,7 +39,7 @@ body {
 }
 
 @font-face {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
   src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff") format("woff");
   font-weight: 600;
   font-style: normal;
@@ -112,15 +87,15 @@ main {
 }
 
 .tk-canela {
-  font-family: "Canela Web", "Times New Roman", serif;
+  font-family: "Montserrat", "Times New Roman", serif;
 }
 
 .tk-canela {
-  font-family: "Canela Web", "Times New Roman", serif;
+  font-family: "Montserrat", "Times New Roman", serif;
 }
 
 .tk-atlas {
-  font-family: "Atlas Grotesk Web", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (min-width: 50em) {
@@ -162,7 +137,7 @@ main {
 }
 
 .section-title {
-  font-family: "Canela Web";
+  font-family: "Montserrat";
   color: rgba(0, 0, 0, 0.72);
   font-size: 36px;
   margin-bottom: 1.5rem;
@@ -219,7 +194,7 @@ main {
 }
 
 .section-prose {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
   margin-bottom: 1.5rem;
   color: rgba(0, 0, 0, 0.72);
   font-size: 16px;
@@ -253,7 +228,7 @@ img {
 }
 
 .footer .footer-title {
-  font-family: "Canela Web";
+  font-family: "Montserrat";
   color: #fff;
   font-size: 36px;
   margin-bottom: 1rem;
@@ -261,7 +236,7 @@ img {
 }
 
 .footer .footer-prose {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
   margin-bottom: 1.5rem;
   color: #fff;
   font-size: 14px;
@@ -286,13 +261,13 @@ img {
 }
 
 .person-name {
-  font-family: "Canela Web";
+  font-family: "Montserrat";
   font-size: 28px;
   margin-bottom: 1rem;
 }
 
 .person-dek {
-  font-family: "Atlas Grotesk Web";
+  font-family: "Nunito";
 }
 
 @media screen and (max-width: 750px) {
