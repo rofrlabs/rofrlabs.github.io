@@ -132,7 +132,7 @@ main {
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
-  /* display: flex; */
+  display: flex;
   margin-bottom: 2rem;
 }
 
@@ -157,6 +157,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  padding-right: 20px;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
@@ -184,6 +185,11 @@ main {
   justify-content: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 250, 250, 0.5)), to(rgba(245, 245, 245, 0.5)));
   background-image: linear-gradient(90deg, rgba(250, 250, 250, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+
+.white {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 250, 250, 0.95)), to(rgba(245, 245, 245, 0.95)));
+  background-image: linear-gradient(90deg, rgba(250, 250, 250, 0.95) 0%, rgba(245, 245, 245, 0.95) 100%);
 }
 
 .image-full {
@@ -273,6 +279,9 @@ img {
 @media screen and (max-width: 750px) {
   .section {
     display: block;
+  }
+  .image-holder {
+    width: auto;
   }
   .people {
     display: block;
