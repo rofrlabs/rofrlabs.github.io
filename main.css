@@ -1,14 +1,25 @@
 body {
   -webkit-font-feature-settings: "kern" 1, "onum" 1, "liga" 0, "tnum" 1;
-          font-feature-settings: "kern" 1, "onum" 1, "liga" 0, "tnum" 1;
+  font-feature-settings: "kern" 1, "onum" 1, "liga" 0, "tnum" 1;
   -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(177deg, #fbd6cd 6%, #fbe8aa 28%, #50e2e3 56%, #fdc0ee 78%, #fdeba8 95%, #fff 100%);
+  background-image: linear-gradient(
+    177deg,
+    #fbd6cd 6%,
+    #fbe8aa 28%,
+    #50e2e3 56%,
+    #fdc0ee 78%,
+    #fdeba8 95%,
+    #fff 100%
+  );
   min-height: 2000px;
 }
 
 @font-face {
   font-family: "Publico Text Web";
-  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff") format("woff");
+  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/publico/PublicoText-Bold-Web.woff")
+      format("woff");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -16,7 +27,10 @@ body {
 
 @font-face {
   font-family: "Publico Text Web";
-  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff") format("woff");
+  src: url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/publico/PublicoText-Italic-Web.woff")
+      format("woff");
   font-weight: 400;
   font-style: italic;
   font-stretch: normal;
@@ -24,7 +38,10 @@ body {
 
 @font-face {
   font-family: "Nunito";
-  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff") format("woff");
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff")
+      format("woff");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -32,7 +49,10 @@ body {
 
 @font-face {
   font-family: "Nunito";
-  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff") format("woff");
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Medium-Web.woff")
+      format("woff");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -40,7 +60,10 @@ body {
 
 @font-face {
   font-family: "Nunito";
-  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2") format("woff2"), url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff") format("woff");
+  src: url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff")
+      format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -51,7 +74,6 @@ body {
   top: 1rem;
   right: 1.5rem;
   height: 25px;
-  display: none;
 }
 
 .top-menu-flex {
@@ -171,11 +193,9 @@ main {
   padding: 0.5rem;
   padding-top: 1rem;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  height: 500px;
+  height: 400px;
   margin: 0 auto;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
@@ -183,13 +203,39 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 250, 250, 0.5)), to(rgba(245, 245, 245, 0.5)));
-  background-image: linear-gradient(90deg, rgba(250, 250, 250, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(250, 250, 250, 0.5)),
+    to(rgba(245, 245, 245, 0.5))
+  );
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 0.5) 0%,
+    rgba(245, 245, 245, 0.5) 100%
+  );
 }
 
 .white {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 250, 250, 0.95)), to(rgba(245, 245, 245, 0.95)));
-  background-image: linear-gradient(90deg, rgba(250, 250, 250, 0.95) 0%, rgba(245, 245, 245, 0.95) 100%);
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(250, 250, 250, 0.55) 0%,
+    rgba(245, 245, 245, 0.55) 100%
+  );
+  height: auto;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(250, 250, 250, 0.95)),
+    to(rgba(245, 245, 245, 0.95))
+  );
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 0.95) 0%,
+    rgba(245, 245, 245, 0.95) 100%
+  );
 }
 
 .image-full {
@@ -262,8 +308,8 @@ img {
 .person {
   margin: 15px;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .person-name {
@@ -288,6 +334,9 @@ img {
   }
   .section-right {
     margin-left: 0px;
+  }
+  .footer {
+    padding: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

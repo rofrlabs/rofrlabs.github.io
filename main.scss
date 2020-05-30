@@ -228,11 +228,9 @@ main {
   padding: 0.5rem;
   padding-top: 1rem;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  height: 500px;
+  height: 400px;
   margin: 0 auto;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.16);
@@ -276,6 +274,7 @@ main {
     rgba(250, 250, 250, 0.55) 0%,
     rgba(245, 245, 245, 0.55) 100%
   );
+  height: auto;
   background-image: -o-linear-gradient(
     left,
     rgba(250, 250, 250, 0.55) 0%,
@@ -367,5 +366,8 @@ img {
   }
   .section-right {
     margin-left: 0px;
+  }
+  .footer {
+    padding: 2rem;
   }
 }
